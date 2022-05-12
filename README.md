@@ -1,16 +1,16 @@
-PACKAGE
+@greymass/return-path
 =======
 
 Greymass TypeScript library template, intended for libraries that work in any JavaScript context (node.js, Browser, React native), `@types/node` are installed only for tests, don't rely on any node.js types or imports inside `src/` (no `buffer`, `crypto` imports etc, they can be filled for browser but will bloat the bundle 100x)
 
 ## Installation
 
-The `PACKAGE` package is distributed as a module on [npm](https://www.npmjs.com/package/PACKAGE).
+The `@greymass/return-path` package is distributed as a module on [npm](https://www.npmjs.com/@greymass/return-path/@greymass/return-path).
 
 ```
-yarn add PACKAGE
+yarn add @greymass/return-path
 # or
-npm install --save PACKAGE
+npm install --save @greymass/return-path
 ```
 
 ## Usage
