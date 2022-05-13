@@ -63,50 +63,50 @@ export function detectReturnPath() {
     return window.location.href
 }
 
-function isAppleHandheld() {
+export function isAppleHandheld() {
     return /iP(ad|od|hone)/i.test(navigator.userAgent)
 }
 
-function isChromeiOS() {
+export function isChromeiOS() {
     return /CriOS/.test(navigator.userAgent)
 }
 
-function isChromeMobile() {
+export function isChromeMobile() {
     return /Chrome\/[.0-9]* Mobile/i.test(navigator.userAgent)
 }
 
-function isFirefox() {
+export function isFirefox() {
     return /Firefox/i.test(navigator.userAgent)
 }
 
-function isFirefoxiOS() {
+export function isFirefoxiOS() {
     return /FxiOS/.test(navigator.userAgent)
 }
 
-function isOpera() {
+export function isOpera() {
     return /OPR/.test(navigator.userAgent) || /Opera/.test(navigator.userAgent)
 }
 
-function isEdge() {
+export function isEdge() {
     return /Edge\/([0-9._]+)/.test(navigator.userAgent)
 }
 
-function isBrave() {
+export function isBrave() {
     return navigator['brave'] && typeof navigator['brave'].isBrave === 'function'
 }
 
-function isSamsung() {
+export function isSamsung() {
     return /SamsungBrowser\/([0-9.]+)/.test(navigator.userAgent)
 }
 
-function isDuckDuckGo() {
+export function isDuckDuckGo() {
     return /DuckDuckGo/.test(navigator.userAgent)
 }
 
-function isAndroid() {
+export function isAndroid() {
     return /Android/.test(navigator.userAgent)
 }
 
-function isAndroidWebView() {
+export function isAndroidWebView() {
     return /(?!Chrom.*OPR)wv\).*Chrom(?:e|ium)\/([0-9.]+)(:?\s|$)/.test(navigator.userAgent)
 }
