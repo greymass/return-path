@@ -1,7 +1,7 @@
 {
     "name": "@greymass/return-path",
-    "description": "DESCRIPTION",
-    "version": "0.0.0",
+    "description": "A package that detects the proper return path string in a wide range of browsers.",
+    "version": "0.0.1",
     "homepage": "https://github.com/greymass/@greymass/return-path",
     "license": "BSD-3-Clause",
     "main": "lib/@greymass/return-path.js",

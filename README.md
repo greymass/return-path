@@ -15,7 +15,17 @@ npm install --save @greymass/return-path
 
 ## Usage
 
-TODO
+```
+import { detectReturnPath } from '@greymass/return-path';
+
+const returnPath = detectReturnPath();
+
+console.log(returnPath);
+// "googlechrome://"
+
+```
+
+```
 
 ## Developing
 

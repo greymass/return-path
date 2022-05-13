@@ -2,10 +2,10 @@ import jsdom from 'jsdom-global'
 
 import {assert} from 'chai'
 
-import { generateReturnUrl } from '../src/index'
+import { detectReturnPath } from '../src/index'
 
 suite('index', function () {
-    suite('generateUrl', function () {
+    suite('detectReturnPath', function () {
         jsdom()
 
         test('chrome on iOS', function () {
@@ -37,5 +37,5 @@ function assertDetection(uaString, expectedDetection) {
         userAgent: uaString
     }
 
-    assert.equal(generateReturnUrl(), expectedDetection)
+    assert.equal(detectReturnPath(), expectedDetection)
 }

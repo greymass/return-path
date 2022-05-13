@@ -5,7 +5,7 @@
 
 // For reference, a lot of the regex strings are taken from https://github.com/DamonOehlman/detect-browser/blob/master/src/index.ts
 
-export function generateReturnUrl() {
+export function detectReturnPath() {
     if (isChromeiOS()) {
         // google chrome on iOS will always open new tab so we just ask it to open again as a workaround
         return 'googlechrome://'
